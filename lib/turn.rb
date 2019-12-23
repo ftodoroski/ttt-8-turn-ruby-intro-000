@@ -7,7 +7,7 @@ def display_board(board)
 end
 
 def input_to_index(user_input)
-  converted_user_input = user_input.to_i - 1
+  user_input.to_i - 1
 end
 
 # Check the numbers if they are bewteen 1 and 9 because -1 would be valid but not for the test because it gets the last ele of an array
